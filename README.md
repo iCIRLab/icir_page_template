@@ -29,8 +29,8 @@ sudo apt install python3-yaml   # 또는 pip install pyyaml
 3. 만든 저장소를 clone합니다.
 
    ```sh
-   git clone https://github.com/iCIRLab/<프로젝트>_page.git
-   cd <프로젝트>_page
+   git clone https://github.com/iCIRLab/icir_<프로젝트>_page.git
+   cd icir_<프로젝트>_page
    ```
 
 ### 2. 내용 작성하기
@@ -46,6 +46,7 @@ sudo apt install python3-yaml   # 또는 pip install pyyaml
 
    <http://localhost:8000/>에서 확인하고 `Ctrl+C`로 종료합니다.
    `content.yaml`을 고칠 때마다 다시 실행하세요.
+   서버 없이 `python3 build.py`로 생성만 한 뒤 `docs/index.html`을 브라우저에서 바로 열어도 됩니다.
 4. `content.yaml`, `docs/` 전체(생성된 `docs/index.html` 포함)를 커밋하고 push합니다.
 
    ```sh
